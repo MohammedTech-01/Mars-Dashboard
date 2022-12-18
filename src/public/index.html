@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./assets/stylesheets/index.css" />
+    <title>Mars Dashboard</title>
+  </head>
+
+  <body>
+    <header><h1 class="head">Mars Dashboard</h1></header>
+    <main>
+      <div class="menu-container">
+        <div class="menu active" id="Curiosity">Curiosity</div>
+        <div class="menu" id="Opportunity">Opportunity</div>
+        <div class="menu" id="Spirit">Spirit</div>
+      </div>
+      <div class="imgs">
+        <img
+          src="./assets/imgs/Curiosity.jpg"
+          class="img activeImg"
+          id="Curiosity"
+        />
+        <img src="./assets/imgs/Opportunity.jpg" class="img" id="Opportunity" />
+        <img src="./assets/imgs/Spirit.jpg" class="img" id="Spirit" />
+      </div>
+      <div id="root">
+        <h1>Loading...</h1>
+      </div>
+    </main>
+  </body>
+  <script src="/client.js"></script>
+</html>
